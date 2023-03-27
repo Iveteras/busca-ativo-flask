@@ -20,5 +20,6 @@ Todos os dados são obtidos através da biblioteca Yahoo Finance (yfinance)
 
 # Features foturas
 
-`1`: Aviso personalizada para cada tipo de erro do usuário (hoje é uma mensagem genérica)
-`2`: Implementação de banco de dados 
+- `1`: Aviso personalizada para cada tipo de erro do usuário (hoje é uma mensagem genérica)
+- `2`: Implementação de banco de dados 
+- `3`: Colocar um Buy Me a Coffee :sweat_smile:
