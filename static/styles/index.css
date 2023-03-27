@@ -1,0 +1,140 @@
+html, body{
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+}
+section{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+.como-usar{
+    width: 50%;
+    color: white;
+    background-color: #01d240;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.como-usar h1{
+    font-size: 30px;
+    margin: 10%;
+}
+
+.como-usar ol{
+    margin: 10%;
+}
+
+.div-circle-li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.circle{
+    font-size: 30px;
+    border: solid white 0.5px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.como-usar li{
+    margin-left: 6%;
+    font-size: 20px;
+    width: 75%;
+}
+.como-usar a{
+    color: white;
+}
+.como-usar p{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 90%;
+}
+
+fieldset{
+    width: 80%;
+    margin: auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+label{
+    font-size: 30px;
+}
+.form-input{
+    width: 70%;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    border-bottom: rgb(139, 139, 139) 0.5px solid;
+}
+.form-input:hover{
+    box-shadow: 0px 10px 36px -18px #111;   
+}
+.form-input:focus{
+    outline: none;
+    border-color: #01d240;
+}
+#botao-pesquisar{
+    width: 30%;
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #01d240;
+    border-radius: 10px;
+    border: none;
+}
+#botao-pesquisar:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+
+.div-erro{
+    background-color: rgb(242, 142, 142);
+    color: rgb(161, 9, 9);
+    width: 50%;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 10%;
+    padding: 1%;
+    box-shadow:  rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+}
+.mensagem-erro-principal{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1%;
+}
+.mensagem-erro-principal h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.mensagem-erro-principal span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.mensagem-erro-dica{
+    font-size: 15px;
+    font-style: italic;
+}

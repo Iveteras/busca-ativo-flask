@@ -1,0 +1,56 @@
+html, body{
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.main-section{
+    display: flex;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.botao{
+    width: 60%;
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #01d240;
+    border-radius: 10px;
+    border: none;
+}
+.botao:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+table{
+    margin: auto;
+    border: solid black 1px;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+th{
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black 0.5px;
+    background-color: #01d240;
+    color: white;
+}
+
+td{
+    border: solid black 0.5px;
+}
+tr:hover{
+    background-color: #98f3b2;
+}

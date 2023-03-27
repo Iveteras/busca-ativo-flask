@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado - ativos</title>
+    <link rel="stylesheet" href="../static/styles/reset.css">
+    <link rel="stylesheet" href="../static/styles/resultado.css">
+    <link rel="shortcut icon" href="../static/icons8-verified-scroll-16.png" type="image/x-icon">
+</head>
+<body>
+    <section class="main-section">
+
+        <div class="buttons">
+            <form action="{{ url_for('index') }}">
+                <button class="botao" id="botao-voltar" action="{{ url_for('index') }}">Voltar para página inicial</button>
+            </form>
+            <form action="{{ url_for('download_csv') }}">
+                <button class="botao" id="botao-download">Download</button>
+            </form>         
+        </div>
+
+        <div class="div-tabela" id="div-tabela">
+            <table>  
+                <thead>    
+                    <tr> 
+                        <th>Date (mm/dd/aaaa)</th>         
+                        <th>Open</th>      
+                        <th>High</th>      
+                        <th>Low</th>      
+                        <th>Close</th>     
+                        <th>Volume</th>      
+                        <th>Dividends</th>      
+                        <th>Stock Splits</th>    
+                    </tr>  
+                </thead>  
+                <tbody id="tbody">    
+  
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+    <script>
+        let json_parsed = JSON.parse("{{json_ativo}}".replaceAll('&#34;', '"'));
+    </script>
+    <script src="{{ url_for('static', filename='js/cria_template.js') }}"></script>
+</body>
+</html>
