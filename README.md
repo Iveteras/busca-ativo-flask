@@ -18,7 +18,7 @@ Date | Open | High | Low | Close | Volume | Dividends | Stock Splits
 
 Todos os dados são obtidos através da biblioteca Yahoo Finance (yfinance)
 
-# Features foturas
+# Features futuras
 
 - `1: Aviso personalizado para cada tipo de erro do usuário (hoje é uma mensagem genérica)`
 - `2: Implementação de banco de dados`
